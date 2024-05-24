@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("/public/ashPokemon.jpeg");
+  background-size: cover;
+}
+
+.container {
+  width: 25rem;
+  height: 30rem;
+  padding: 50px;
+  background-color: rgba(245, 245, 220, 0.75);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

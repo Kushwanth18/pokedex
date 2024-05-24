@@ -1,0 +1,15 @@
+.innerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.outline {
+  h1 {
+    text-align: center;
+  }
+  .button {
+    width: 10rem;
+  }
+}
