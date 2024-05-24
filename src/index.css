@@ -9,17 +9,18 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url("/public/ashPokemon.jpeg");
+  background-image: url("/ashPokemon.jpeg");
   background-size: cover;
 }
 
 .container {
-  width: 25rem;
+  width: 30rem;
   height: 30rem;
   padding: 50px;
-  background-color: rgba(245, 245, 220, 0.75);
+  background-color: rgba(245, 245, 220, 0.9);
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Roboto Mono", serif;
 }
