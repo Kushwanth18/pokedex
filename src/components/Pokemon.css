@@ -51,3 +51,59 @@
     width: 2.8rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .pokeInfoContainer {
+    width: 30rem;
+    height: auto;
+    margin-top: 5rem;
+    padding-top: 25rem;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    margin-bottom: 50px;
+  }
+  .aboutPokemon {
+    border: none;
+  }
+  .pokeName {
+    order: 2;
+  }
+}
+
+/* @media screen and (max-width: 370px) {
+  .pokeInfoContainer {
+    width: 100vw;
+    height: auto;
+    margin-top: 100px;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    margin-bottom: 50px;
+  }
+  .aboutPokemon {
+    border: none;
+    font-size: 1rem;
+    margin: 10px;
+  }
+  .pokeName {
+    order: 2;
+  }
+  .pokeImage {
+    align-self: auto;
+    margin: 0;
+    background-color: red;
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    .search-new {
+      scale: 0.6;
+    }
+    img {
+      scale: 0.5;
+      transform: translateX(-13rem);
+    }
+  }
+}
+ */
